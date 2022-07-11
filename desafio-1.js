@@ -3,7 +3,7 @@ class Usuario{
         this.nombre = nombre
         this.apellido = apellido
         this.libros = libros
-        this.mascotas = mascotas
+        this.mascotas = [mascotas]
     }
     getFullName(){
         console.log("Nombre completo: ", `${this.nombre} ${this.apellido}`)
